@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/mynimbus/Library/Mobile Documents/com~apple~CloudDocs/GitHub Uploads/CPP-DSA-by-GiGi/15_bit_manipulation",
+      "program": "/Users/mynimbus/Library/Mobile Documents/com~apple~CloudDocs/GitHub Uploads/CPP-DSA-by-GiGi/15_bit_manipulation/build/Debug/outDebug"
+    }
+  ]
+}

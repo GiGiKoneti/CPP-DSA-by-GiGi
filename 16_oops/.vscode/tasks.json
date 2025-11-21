@@ -1,0 +1,42 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Compile & Run C++",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "${file}",
+                "-o",
+                "${fileDirname}/${fileBasenameNoExtension}"
+            ],
+            "group": "build",
+            "problemMatcher": [],
+            "detail": "Compile and run the current C++ file",
+            "dependsOn": [],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared"
+            },
+            "options": {
+                "cwd": "${fileDirname}"
+            }
+        },
+        {
+            "label": "Run Executable",
+            "type": "shell",
+            "command": "${fileDirname}/${fileBasenameNoExtension}",
+            "problemMatcher": [],
+            "options": {
+                "cwd": "${fileDirname}"
+            }
+        },
+        {
+            "label": "Compile & Run C++ File",
+            "dependsOrder": "sequence",
+            "dependsOn": ["Compile & Run C++", "Run Executable"]
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/mynimbus/Library/CloudStorage/GoogleDrive-gigikoneti@gmail.com/My Drive/GitHub Uploads/CPP-DSA-by-GiGi/00_Problems/03_Arrays(1D)",
+      "program": "/Users/mynimbus/Library/CloudStorage/GoogleDrive-gigikoneti@gmail.com/My Drive/GitHub Uploads/CPP-DSA-by-GiGi/00_Problems/03_Arrays(1D)/build/Debug/outDebug"
+    }
+  ]
+}

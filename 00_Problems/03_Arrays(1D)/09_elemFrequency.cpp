@@ -1,0 +1,28 @@
+// Find the frequency of each element.
+# include <iostream>
+using namespace std;
+
+int main() {
+    int arr[10] = {1,2,3,4,5,6,7,8,9,10};
+    int n = sizeof(arr)/sizeof(arr[0]);
+
+    vector<bool> visited(n, false);
+
+    for (int i = 0; i < n; i++) {
+        if (visited[i] == true)
+            continue;
+
+        int count = 1;
+
+        for (int j = i + 1; j < n; j++) {
+            if (arr[i] == arr[j]) {
+                visited[j] = true;
+                count++;
+            }
+        }
+
+        cout << arr[i] << " occurs " << count << " times" << endl;
+    }
+
+    return 0;
+}
